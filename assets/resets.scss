@@ -1,0 +1,12 @@
+html {
+    overflow-y: auto !important;
+}
+
+.not-allowed {
+    cursor: not-allowed !important;
+    pointer-events: initial !important;
+
+    & > div {
+        pointer-events: none;
+    }
+}
